@@ -1,32 +1,34 @@
-# 🌦️ Weather Prediction Using Machine Learning
+# 📊 Comparative Analysis of RNN Architectures for Time Series Prediction
 
-A machine learning-based approach for predicting weather conditions using historical meteorological data. This project includes data preprocessing, model training, and performance evaluation using common deep learning algorithms, implemented in **Python** with **Pandas**, **scikit-learn**, and **Matplotlib**.
+This project conducts a detailed comparative study of three recurrent neural network architectures—**Long Short-Term Memory (LSTM)**, **Gated Recurrent Unit (GRU)**, and **vanilla Recurrent Neural Network (RNN)**—applied to time series prediction tasks.
 
 ---
 
 ## 🧩 Motivation
 
-Weather forecasting is a classic time series and regression challenge in data science. This project was developed to apply deep learning techniques to a real-world dataset, exploring how environmental features such as humidity, temperature, and pressure can be used to make predictive models.
+Recurrent neural networks are widely used for sequential data modeling. This project aims to evaluate and compare the predictive performance of LSTM, GRU, and RNN models on a real-world dataset, helping to understand their strengths and weaknesses in practice.
 
 ---
 
-## 🧪 Project Overview
+## 🧪 Project Highlights
 
-- 📊 **Dataset**: CSV-based historical weather data
-- 🧹 **Preprocessing**: Handles missing values, encodes categorical variables, and normalizes features
-- 🤖 **Modeling**:
-  - LSTM
-  - RNN
-  - GRU
-- 📈 **Evaluation**: Mean Absolute Error (MAE), Mean Squared Error (MSE), and visual plots to compare model predictions with actual values
+- Developed and trained LSTM, GRU, and RNN models for forecasting time-dependent data.
+- Implemented feature normalization using **StandardScaler** to improve model convergence and accuracy.
+- Evaluated models with comprehensive metrics:
+  - Mean Absolute Error (MAE)
+  - Mean Squared Error (MSE)
+  - Root Mean Squared Error (RMSE)
+  - R-squared (R²)
+- Analyzed model results to identify best-performing architectures for the task.
 
 ---
 
+## 🔧 Technologies Used
 
-## 📊 Key Features
-
-- ✅ Clean and modular code with clear separation of preprocessing, training, and evaluation
-- 🔍 Comparison of multiple deep learning models to evaluate predictive power
-- 📈 Visualization of predicted vs actual outcomes for better interpretability
+- **Python**
+- **TensorFlow / Keras** – Model building and training
+- **scikit-learn** – Data preprocessing and evaluation metrics
+- **NumPy / Pandas** – Data manipulation and analysis
+- **Matplotlib / Seaborn** – Visualization of results
 
 ---
